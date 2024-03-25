@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alex Jakhang Cheung">
+    <meta name="keywords" content="Carnegie Mellon University, Information Systems">
+    <meta name="description" content="Alex Jakhang Cheung professional website">
+    <title>Alex Jakhang Cheung</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="../static/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload=" addYear()">
+    <header>
+        <h1 id="webname">Alex Jakhang Cheung</h1>
+        <nav id="myTopnav" class="topnav">
+            <a href="index.html" class="active">Home</a>
+            <a href="CV.html">CV</a>
+            <a href="contact.html">Contact me</a>
+            <a href="fun.html">For fun</a>
+            <a href="javascript:void(0);" class="icon">
+                <i class="fa fa-bars" onclick="activeNav()"></i>
+            </a>
+        </nav>
+    </header>
+    <div class="main">
+        <h2 id="greeting"></h2>
+        <img class="classA" src="../static/pictureself.jpg" alt="Alex Jakhang Cheung profile image" width="350px">
+        <div class="classA">
+            <!-- <p id="intro">
+                Hello, I'm Alex Cheung, an Information Systems major at Carnegie Mellon University. I really enjoy programming and software engineering. I am currently most interested in finding ways LLMs can be useful in human life such as in online sensemaking or enhancing education. Through my personal projects and prior internships, I have gained experience in website and application design and development through tools such as Figma and React as well as in machine learning. I have also gained experience working in the cloud using AWS and with databases like MongoDB and AstraDB. In my most recent research, I am exploring the capabilities of AI in assisting people with navigating and making sense of all of the information online. My team is exploring the effectiveness of several models and combining them with embeddings while also exploring ways we can process the unstructured data on the web. I hope to find new opportunities to continue expanding my knowledge in programming and technology in general to further my journey in software engineering.
+            </p> -->
+            <div class="classA">
+                <span id="shortIntro">Hello, I'm Alex Cheung, an Information Systems major at Carnegie Mellon University.</span>
+                <span id="readMore"> read more ...</span>
+                <span id="longIntro">I really enjoy programming and software engineering. I am currently most interested in finding ways LLMs can be useful in human life such as in online sensemaking or enhancing education. Through my personal projects and prior internships, I have gained experience in website and application design and development through tools such as Figma and React as well as in machine learning. I have also gained experience working in the cloud using AWS and with databases like MongoDB and AstraDB. In my most recent research, I am exploring the capabilities of AI in assisting people with navigating and making sense of all of the information online. My team is exploring the effectiveness of several models and combining them with embeddings while also exploring ways we can process the unstructured data on the web. I hope to find new opportunities to continue expanding my knowledge in programming and technology in general to further my journey in software engineering.</span>
+                <span id="readLess"> read less</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p id="copyYear">Alex Cheung &copy</p>
+    </footer>
+</body>
+
+</html>
